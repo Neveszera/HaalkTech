@@ -1,3 +1,5 @@
+import Cabecalho from '@/components/client-components/Cabecalho'
+import Rodape from '@/components/client-components/Rodape'
 import './globals.css'
 
 export const metadata = {
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        <Cabecalho />
+        {children}
+        <Rodape />
+      </body>
     </html>
   )
 }
