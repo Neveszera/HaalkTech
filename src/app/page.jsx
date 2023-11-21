@@ -55,7 +55,7 @@ export default function Home() {
           <div className={styles.overlayContent}>
             <h1>Contate-nos</h1>
             <p><strong>Vamos falar sobre como podemos impulsionar digitalmente suas metas em relação a sua saúde.</strong></p>
-            <Link href="" passHref>
+            <Link href="./contato" passHref>
               Contate-nos
             </Link>
           </div>
