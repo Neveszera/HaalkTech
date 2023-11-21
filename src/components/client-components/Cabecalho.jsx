@@ -37,7 +37,7 @@ const Cabecalho = () => {
                 </Link>
               </li>
               <li className={`${styles.cabecalhoListaItem} ${activeLink === 'sobreNos' ? styles.active : ''}`}>
-                <Link href="/" onClick={() => handleLinkClick('sobreNos')}>
+                <Link href="../sobre" onClick={() => handleLinkClick('sobreNos')}>
                   Sobre nós
                 </Link>
               </li>
