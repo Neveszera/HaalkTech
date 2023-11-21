@@ -1,0 +1,135 @@
+.loginSection {
+    display: flex;
+    align-items: center;
+}
+
+.loginLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.loginRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cadastroLink {
+    color: #008d1f;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 15px 10px;
+    width: 267px;
+    height: 63px;
+    position: absolute;
+    top: 550px;
+    left: 120px;
+}
+
+.loginForm {
+    color: #fff;
+    width: 500px;
+    height: 400px;
+}
+
+.loginForm h1 {
+    color: #008d1f;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.loginForm input {
+    color: #008d1f;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    width: 100%;
+    height: 85px;
+    margin-bottom: 41px;
+}
+
+.loginForm input::placeholder {
+    color: #008d1f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.passwordInput {
+    position: relative;
+}
+
+.passwordInput input {
+    padding-right: 30px;
+}
+
+.passwordInput button {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.loginButton {
+    color: #fff;
+    background-color: #008D1F;
+    border-radius: 15px;
+    width: 80%;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+@media (max-width: 989px) {
+    .loginSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cadastroLink {
+        position: static;
+    }
+
+    .loginForm {
+        width: 100%;
+        height: 330px;
+        margin: 0 auto;
+    }
+
+    .loginForm input {
+        width: 100%;
+        height: 65px;
+    }
+
+    .loginRight {
+        order: -1;
+        margin-top: 20px;
+    }
+
+    .passwordInput button {
+        top: 35%;
+    }
+
+    .loginImage {
+        display: none;
+    }
+
+    .loginLeft {
+        margin-top: 0;
+    }
+}
