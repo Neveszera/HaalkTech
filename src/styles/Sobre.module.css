@@ -1,0 +1,192 @@
+.section1 {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 80px;
+}
+
+.imagemSection1 {
+    margin-top: 50px;
+}
+
+.textos {
+    flex: 1;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.textos h1 {
+    font-size: 32px;
+    color: #008D1F;
+}
+
+.textos p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.section2 {
+    display: flex;
+}
+
+.nossaEquipe {
+    flex: 1;
+    padding: 20px;
+}
+
+.nossaEquipe h1 {
+    font-size: 32px;
+    color: #008D1F;
+}
+
+.imagemEquipe {
+    flex: 1;
+    text-align: right;
+}
+
+.membros {
+    display: flex;
+    flex-direction: column;
+}
+
+.membro {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(46, 218, 54, 0.21);
+}
+
+.membro h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+}
+
+.membro p {
+    font-size: 16px;
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .section1 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .imagemSection1 {
+      margin-top: 20px;
+      order: 2;
+    }
+  
+    .textos {
+      order: 1;
+    }
+  
+    .textos h1 {
+      font-size: 24px;
+    }
+  
+    .textos p {
+      font-size: 14px;
+    }
+  
+    .section2 {
+      flex-direction: column;
+    }
+  
+    .nossaEquipe {
+      order: 1;
+    }
+  
+    .imagemEquipe {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .membros {
+      align-items: center;
+    }
+  
+    .membro {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  
+    .membro h3 {
+      font-size: 18px;
+    }
+  
+    .membro p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Adicione as regras de mídia para telas menores até 990px */
+  
+  @media only screen and (max-width: 990px) {
+    .section1 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .imagemSection1 {
+      margin-top: 20px;
+      order: 2;
+    }
+  
+    .textos {
+      order: 1;
+    }
+  
+    .textos h1 {
+      font-size: 24px;
+    }
+  
+    .textos p {
+      font-size: 14px;
+    }
+  
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .nossaEquipe {
+        order: -1;
+        text-align: center;
+      }
+    
+      .membros {
+        align-items: center;
+      }
+    
+      .imagemEquipe {
+        flex: 1;
+        text-align: center;
+        margin-top: 20px;
+      }
+    
+      .imagemEquipe img {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      .membro {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+      }
+    .membro h3 {
+      font-size: 18px;
+    }
+  
+    .membro p {
+      font-size: 14px;
+    }
+  }
