@@ -13,7 +13,7 @@ export default function Home() {
             <h1>Seja bem-vindo a HaalkHealth!</h1>
             <p><strong>O cuidado que você mais precisa
               quando e onde quiser</strong></p>
-            <Link href="" passHref>
+            <Link href="./login" passHref>
               Agende sua consulta
             </Link>
           </div>

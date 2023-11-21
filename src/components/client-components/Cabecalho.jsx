@@ -46,7 +46,7 @@ const Cabecalho = () => {
           <div className={styles.loginItem} >
             <ul className={`${styles.cabecalhoLista} ${menuOpen ? styles.active : ''}`}>
               <li className={`${styles.cabecalhoListaItem} ${activeLink === 'login' ? styles.active : ''}`}>
-                <Link href="/" onClick={() => handleLinkClick('login')}>
+                <Link href="../login" onClick={() => handleLinkClick('login')}>
                   Login
                 </Link>
               </li>
