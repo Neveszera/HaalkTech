@@ -27,7 +27,7 @@ const Cabecalho = () => {
           <div className={styles.centerLinks}>
             <ul className={`${styles.cabecalhoLista} ${menuOpen ? styles.active : ''}`}>
               <li className={`${styles.cabecalhoListaItem} ${activeLink === 'comoFunciona' ? styles.active : ''}`}>
-                <Link href="/" onClick={() => handleLinkClick('comoFunciona')}>
+                <Link href="../como-funciona" onClick={() => handleLinkClick('comoFunciona')}>
                   Como Funciona
                 </Link>
               </li>

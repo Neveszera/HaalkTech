@@ -1,0 +1,32 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .buttonContainer {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    background-color: #008D1F;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
