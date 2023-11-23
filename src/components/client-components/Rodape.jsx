@@ -24,7 +24,7 @@ export default function Rodape() {
                 </div>
                 <div className={styles.text}>
                     <p><strong>Telefone:</strong> Telefone: 4002-8922</p>
-                    <p><strong>Email:</strong> Haalktech@gmail.com.</p>
+                    <p><strong>Email:</strong> Haalktech@gmail.com</p>
                     <p><strong>Av.paulista 0000, Bela vista, São Paulo</strong></p>
                 </div>
             </div>
