@@ -62,7 +62,7 @@ export default function ComoFunciona() {
                     <p>Em apenas alguns passos, você terá acesso à nossa plataforma e serviços ao seu dispor
                         quando necessário. Sua saúde está a apenas alguns cliques de distância!</p>
                     <p>Cadastre-se agora e experimente a praticidade da HaalkHealth!</p>
-                    <Link href="/" className={styles.link}>Cadastre-se Agora</Link>
+                    <Link href="/cadastro" className={styles.link}>Cadastre-se Agora</Link>
                 </div>
             </section>
 

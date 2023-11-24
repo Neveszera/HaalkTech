@@ -24,7 +24,7 @@ const Login = () => {
                     <Image src="/img/login.png" alt="" width={748} height={600} />
                 </div>
                 <div className={styles.signupLink}>
-                    <Link href="/" className={styles.cadastroLink}>Cadastre-se</Link>
+                    <Link href="/cadastro" className={styles.cadastroLink}>Cadastre-se</Link>
                 </div>
             </div>
             <div className={styles.loginRight}>
