@@ -1,0 +1,118 @@
+/* Cadastro.module.css */
+.cadastroSection {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+.cadastroImage {
+    width: 100%;
+    height: 100%;
+}
+
+.cadastroRight {
+    flex: 1;
+}
+
+.cadastroForm {
+    background-color: #008D1F;
+    border-radius: 30px;
+    padding: 20px;
+    padding-left: 50px;
+    color: #fff;
+    width: 111, 5%;
+    height: 100%;
+    margin-left: -80px;
+}
+
+.cadastroForm h1 {
+    font-size: 32px;
+    margin-bottom: 46px;
+}
+
+.input {
+    width: 90%;
+    display: flex;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.cadastroForm input::placeholder {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.passwordInput {
+    position: relative;
+}
+
+.togglePasswordButton {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 59px;
+    margin-left: 65px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.checkboxLabel {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.cadastrarButton {
+    background-color: #fff;
+    color: #008D1F;
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 267px;
+    height: 63px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 990px) {
+    .cadastroSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadastroLeft {
+        display: none;
+    }
+
+    .cadastroRight {
+        width: 80%;
+    }
+
+    .cadastroForm {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
