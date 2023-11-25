@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "nome": "Gabriel Neves",
+      "cpf": "545.775.528-25",
+      "dataNascimento": "12/12/2020",
+      "telefoneCelular": "11957335672",
+      "endereco": "Rua Mirante das Nascentes",
+      "sexo": "Masculino",
+      "email": "gabrielgng26@gmail.com",
+      "confirmarEmail": "gabrielgng26@gmail.com",
+      "senha": "12345678",
+      "confirmarSenha": "12345678",
+      "autorizacao": true,
+      "id": 1
+    },
+    {
+      "nome": "Gabriel Neves",
+      "cpf": "327.627.238-50",
+      "dataNascimento": "12/12/2020",
+      "telefoneCelular": "11957335672",
+      "endereco": "Rua Mirante das Nascentes",
+      "sexo": "Masculino",
+      "email": "gabriel@gmail.com",
+      "confirmarEmail": "gabriel@gmail.com",
+      "senha": "12345678",
+      "confirmarSenha": "12345678",
+      "autorizacao": true,
+      "id": 2
+    }
+  ]
+}
