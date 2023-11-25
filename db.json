@@ -27,6 +27,20 @@
       "confirmarSenha": "12345678",
       "autorizacao": true,
       "id": 2
+    },
+    {
+      "nome": "Gabriel Neves",
+      "cpf": "311.030.830-40",
+      "dataNascimento": "01/10/1966",
+      "telefoneCelular": "11957335672",
+      "endereco": "Rua Mirante das Nascentes",
+      "sexo": "Feminino",
+      "email": "gng26@gmail.com",
+      "confirmarEmail": "gng26@gmail.com",
+      "senha": "0987",
+      "confirmarSenha": "0987",
+      "autorizacao": true,
+      "id": 3
     }
   ]
 }

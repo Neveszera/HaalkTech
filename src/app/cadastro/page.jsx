@@ -91,14 +91,6 @@ const Cadastro = () => {
     }
 
     const newUser = { ...formData, id: users.length + 1 };
-
-    if (isDuplicateUser()) {
-      setMensagem('Já existe um usuário cadastrado com o mesmo email ou CPF.');
-      setIsError(true);
-      setIsSuccess(false);
-      return;
-    }
-
     const updatedUsers = [...users, newUser];
 
     try {
@@ -118,6 +110,7 @@ const Cadastro = () => {
         setMensagem('Cadastro realizado com sucesso!');
         setIsSuccess(true);
         setIsError(false);
+        window.location.href = '/login';
       }
     } catch (error) {
       console.error('Erro ao conectar com a API:', error);
@@ -252,3 +245,4 @@ const Cadastro = () => {
 };
 
 export default Cadastro;
+
